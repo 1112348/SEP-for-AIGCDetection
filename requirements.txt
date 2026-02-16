@@ -1,0 +1,16 @@
+# PyTorch (根据 CUDA 版本选择对应安装命令)
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+torch>=1.12.0
+torchvision>=0.13.0
+torchaudio>=0.12.0
+
+# 核心依赖
+numpy>=1.22.0
+Pillow>=10.0.0
+matplotlib>=3.5.0
+tqdm>=4.60.0
+scikit-learn>=1.0.0
+scipy>=1.10.0
+
+# DWT 小波变换 (模型前向传播所需)
+pytorch_wavelets>=1.3.0
